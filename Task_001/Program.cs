@@ -61,3 +61,22 @@ Console.WriteLine("Наибольшее число:" + max);
 
 }
 
+void Task3()
+
+{
+
+Console.WriteLine ("Введите число");
+int number = Convert.ToInt32(Console.ReadLine());
+
+if (number % 2 == 0)
+{
+    Console.WriteLine("число является четным");
+}
+else
+{
+    Console.WriteLine("число является нечетным");
+}
+
+}
+
+Task3();
