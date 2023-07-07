@@ -1,5 +1,5 @@
 ﻿
-void Task1()
+void Task2()
 
 {
 
@@ -32,7 +32,7 @@ else
 }
 
 
-void Task2()
+void Task4()
 
 {
 
@@ -61,7 +61,7 @@ Console.WriteLine("Наибольшее число:" + max);
 
 }
 
-void Task3()
+void Task6()
 
 {
 
@@ -79,19 +79,23 @@ else
 
 }
 
-void Tast4()
+void Task8()
 {
 
 Console.WriteLine("Введите число");
 int n = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Четные числа от 1 до "+ n + ":");
-for(int i = 1; i <= n; i++)
+int count = 2;
+while(count <= n)
 {
-    if(i % 2 == 0)
+    if(count % 2 == 0)
     {
-        Console.WriteLine(i);
+        Console.WriteLine(count);
     }
+count++;
 }
 
 
+
 }
+
